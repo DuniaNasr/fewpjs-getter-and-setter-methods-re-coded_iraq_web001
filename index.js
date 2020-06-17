@@ -16,6 +16,6 @@ class Circle{
   return Math.PI *this.radius*this.radius;
 }
   set circumference(value) {
- this.radius = value/(2*Math)
+ this.radius = value/(2*Math.PI)
 }
 }
